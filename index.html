@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epic Playlist</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Epic PlayList</h1>
+    </header>
+
+    <main>
+        <section class="audiobook-list">
+            <div class="audiobook" data-title="Just a Man" data-file="audio/Just a Man.mp3">
+                <h3>Just a Man</h3>
+                <button class="play-btn">▶️ Ouvir</button>
+            </div>
+            <div class="audiobook" data-title="The Horse and the Infant" data-file="audio/The Horse and the Infant.mp3">
+                <h3>The Horse and the Infant</h3>
+                <button class="play-btn">▶️ Ouvir</button>
+            </div>
+        </section>
+
+        <section class="player-section">
+            <h2 id="now-playing">Nenhuma musica tocando</h2>
+            <audio id="audio-player" controls>
+                <source src="" type="audio/mp3">
+                Seu navegador não suporta o player de áudio.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Epic</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
